@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/topic_nav"
+            android:icon="@drawable/ic_topics_nav"
+            android:title="Topics" />
+        <item
+            android:id="@+id/friends"
+            android:icon="@drawable/ic_friends_nav"
+            android:title="Friends" />
+        <item
+            android:id="@+id/messages"
+            android:icon="@drawable/ic_nav_message"
+            android:title="Messages" />
+        <item
+            android:id="@+id/achievements"
+            android:icon="@drawable/ic_nav_achievements"
+            android:title="Achievements" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="Setting" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

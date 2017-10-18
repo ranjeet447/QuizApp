@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="myapp.com.quizz.SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/dimen_64x"
+        android:paddingRight="@dimen/dimen_64x"
+        android:paddingTop="@dimen/dimen_16x"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_trophy" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/nameTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_48x"
+        android:layout_marginRight="@dimen/dimen_48x">
+
+        <EditText
+            android:id="@+id/nameEditTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/user_name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/emailTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_48x"
+        android:layout_marginRight="@dimen/dimen_48x">
+
+
+        <EditText
+            android:id="@+id/emailEditTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:password="false" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_48x"
+        android:layout_marginRight="@dimen/dimen_48x"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/passwordEditTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:password="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/registerAppCompatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_16x"
+        android:layout_marginLeft="@dimen/dimen_48x"
+        android:layout_marginRight="@dimen/dimen_48x"
+        android:layout_marginTop="@dimen/dimen_32x"
+        android:background="@color/colorPrimary"
+        android:text="@string/Register"
+        android:textColor="@color/white" />
+</LinearLayout>
