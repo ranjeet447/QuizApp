@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\299455ef080ff07167278b41ef3fc0e70de3e015\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3352405f829252e602a47d252f11edd7c89d86ff">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_6f0089628af6fb4a75d6f7acd3643ef09331a41d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\1a98e1a0da564a55c76d8714e4a0bcd436f32100\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_af617aaeb88cbec71b2652e0e2000eec355db0e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\1de236fe3f1ce7faf623b44e306223c713a1fa78\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_9b3939a20ca17525b002f27474c5e48f6bc70ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\15d4aab8abd7da67ae1f29a5d71c4c18c8c20365\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7ed36108b22a98a311676b5ad153d1e3587fcd16">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_0dc48e17a1d6cfe01dcac8608ffff1ac8f3c6014.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\f98ec97f12dc7c5c20354c1eb71772a451b43ad5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf47665b22d68f560d1b8fa2e51b8c23a34574f2">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_0eddc55d9dc31d5beca1305b517c0f51eced046d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\0063c106b3960b7da296c4fc8559cb14d7af2196\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="30553c734f57621f31d6d56ad7b263123c7a014f">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_2477c90df5635075300125fb610b1b792fb5c36b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\3047b5b3673bcc35afe30035c4b3b7165ef90b86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="27942406f17e8b8e54175fdac0274805b4edcb2f">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_38ce8adfc4786c69e2c5439d83c899628d14b5cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\b6cd58cb71e3a7f32004133a69779d16bbc036f6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1d2ee92c55b107ec366ddb534edae4548201e25b">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_47b5e3eb384c076d0dc7072efe412688bf965a93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\487a8f307c9c23505a1b0798a37e145bf2728a75\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="722f4e3d1abfa535e19043c813c62bb144a7d02f">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_f1015255d29f841431094d4204c794f2cb0b2952.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranje\.android\build-cache\e9cee56a5bc2c5696c214ac9060c9085b26cb069\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
+        <dex dex="C:\Users\ranje\AndroidStudioProjects\Quizz\app\build\intermediates\pre-dexed\debug\classes_a624a280a505093fe3cef4e1877b55fd626a8b6a.jar" />
+    </item>
+
+</items>
