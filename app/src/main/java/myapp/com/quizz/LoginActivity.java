@@ -1,5 +1,6 @@
 package myapp.com.quizz;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import android.support.v7.widget.AppCompatButton;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -33,6 +35,8 @@ public class LoginActivity extends AppCompatActivity {
     EditText mEmailEditText;
     EditText mPasswordEditText;
     ProgressDialog progress;
+    TextView mForgetPaasTextView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
 
         mEmailEditText = (EditText) findViewById(R.id.emaiEditTextView);
         mPasswordEditText = (EditText) findViewById(R.id.passwordEditTextView);
+        mForgetPaasTextView = (TextView) findViewById(R.id.forgetPasswordTextView) ;
 
 
         mFirebaseAuth = FirebaseAuth.getInstance();
@@ -63,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                progress = ProgressDialog.show(LoginActivity.this, null, "Signing In", true);
+                progress = ProgressDialog.show(LoginActivity.this, null, "Signing In...", true);
 
                 String email = mEmailEditText.getText().toString();
                 String password = mPasswordEditText.getText().toString();
@@ -74,24 +79,36 @@ public class LoginActivity extends AppCompatActivity {
                 mFirebaseAuth.signInWithEmailAndPassword(email, password).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        progress.dismiss();
+
                         Toast.makeText(LoginActivity.this, e.getMessage().toString(), Toast.LENGTH_SHORT).show();
                     }
                 }).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
+                            progress.dismiss();
+                            finish();
                             startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         } else {
+                            progress.dismiss();
                             Toast.makeText(getApplicationContext(), "Sign In Failed", Toast.LENGTH_SHORT).show();
                         }
-
                     }
                 });
-
+            }
+        });
+        mForgetPaasTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this,ForgetPasswordActivity.class));
             }
         });
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }
 

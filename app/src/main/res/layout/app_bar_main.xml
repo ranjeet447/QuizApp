@@ -24,7 +24,9 @@
             android:layout_height="match_parent"
             app:tabIndicatorHeight="@dimen/dimen_4x"
             app:tabTextAppearance="@style/customTabs"
-            app:tabTextColor="@color/colorPrimaryLight"></android.support.design.widget.TabLayout>
+            app:tabTextColor="@color/colorPrimaryLight">
+
+        </android.support.design.widget.TabLayout>
 
     </android.support.design.widget.AppBarLayout>
 

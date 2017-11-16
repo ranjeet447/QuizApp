@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:text="TextView"
+            android:text="@string/textview"
             android:textColor="@color/white"
             android:textSize="@dimen/text_32x"
             android:textStyle="bold" />
